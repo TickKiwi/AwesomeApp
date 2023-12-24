@@ -1152,6 +1152,25 @@ PODS:
     - React-jsi (= 0.73.0)
     - React-logger (= 0.73.0)
     - React-perflogger (= 0.73.0)
+  - rtn-calculator (0.1.0):
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2022.05.16.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - rtn-centered-text (0.0.3):
     - glog
     - hermes-engine
@@ -1250,6 +1269,7 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - rtn-calculator (from `../node_modules/rtn-calculator`)
   - rtn-centered-text (from `../node_modules/rtn-centered-text`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -1371,6 +1391,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  rtn-calculator:
+    :path: "../node_modules/rtn-calculator"
   rtn-centered-text:
     :path: "../node_modules/rtn-centered-text"
   Yoga:
@@ -1439,6 +1461,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 77543c74df984ce56c09d49d427149c53784aaf6
   React-utils: 42708ea436853045ef1eaff29996813d9fbbe209
   ReactCommon: 851280fb976399ca1aabc74cc2c3612069ea70a2
+  rtn-calculator: 7a9a07e7de1c46a6e60ad422c936e9f0e57e486a
   rtn-centered-text: e9df0d5fa1179ddde2275cae8f14f677ed8d69c5
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 44003f970aa541b79dfdd59cf236fda41bd5890f
